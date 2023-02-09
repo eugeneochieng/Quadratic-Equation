@@ -14,15 +14,15 @@ int main(void)
     // condition for real and different roots
     if (d > 0)
     {
-        root1 = (-b + sqrt(d)) / (2 * a);
-        root2 = (-b - sqrt(d)) / (2 * a);
+        root1 = (-b + sqrt(d)) / (2.0 * a);
+        root2 = (-b - sqrt(d)) / (2.0  * a);
         printf("root1 = %.2lf and root2 = %.2lf", root1, root2);
     }
 
     //condition for real and equal roots
     else if (d == 0)
     {
-        root1 = root2 = -b / (2 * a);
+        root1 = root2 = -b / (2.0 * a);
         printf("root1 = root2 = %.2lf;", root1);
     }
 
