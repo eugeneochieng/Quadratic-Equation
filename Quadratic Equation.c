@@ -26,4 +26,11 @@ int main(void)
         printf("root1 = root2 = %.2lf;", root1);
     }
 
-    // if roots are equal
+    // if roots  not equal
+    else
+    {
+        printf("roots are imaginary");
+    }
+
+    return 0;
+}
